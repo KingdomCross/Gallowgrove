@@ -695,6 +695,38 @@
 								}
 							],
 							"sid": 346913341013754
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Player",
+									"sid": 927770215616906,
+									"parameters": {
+										"object": "Bell"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 504956684116507,
+									"parameters": {
+										"instance-variable": "isAttack"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "BellText",
+									"sid": 743894409382829,
+									"parameters": {
+										"visibility": "visible"
+									}
+								}
+							],
+							"sid": 119023054971259
 						}
 					],
 					"sid": 364846255888757

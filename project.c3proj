@@ -100,7 +100,8 @@
 			"Door",
 			"Bell",
 			"BackgroundGravesSilhouetteSprite",
-			"BackgroundTreeSprite"
+			"BackgroundTreeSprite",
+			"BellText"
 		],
 		"subfolders": [
 			{
