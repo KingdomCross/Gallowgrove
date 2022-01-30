@@ -1,0 +1,75 @@
+{
+	"name": "LightPlatform",
+	"plugin-id": "Sprite",
+	"sid": 530072151871879,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Direction",
+			"type": "string",
+			"desc": "",
+			"sid": 628246074905171
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 662294856873193
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 296263601958078
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 3000,
+						"height": 3000,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2287625,
+						"collisionPoly": {
+							"points": [
+								0.2663333333333333,
+								0.2663333333333333,
+								0.5,
+								0.03333333333333333,
+								0.819,
+								0.18066666666666667,
+								0.8863333333333333,
+								0.5,
+								0.9413333333333334,
+								0.9413333333333334,
+								0.5,
+								0.968,
+								0.077,
+								0.9226666666666666,
+								0.20166666666666666,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 908825265309066,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

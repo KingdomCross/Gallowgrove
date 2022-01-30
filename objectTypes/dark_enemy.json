@@ -1,0 +1,305 @@
+{
+	"name": "Dark_Enemy",
+	"plugin-id": "Sprite",
+	"sid": 923629565306060,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Direction",
+			"type": "string",
+			"desc": "",
+			"sid": 197381864676702
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 190075390642482
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 3000,
+						"height": 1900,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4200245,
+						"collisionPoly": {
+							"points": [
+								0.279,
+								0.4405263157894737,
+								0.5,
+								0.14473684210526316,
+								0.8406666666666667,
+								0.25105263157894736,
+								0.8016666666666666,
+								0.5,
+								0.7266666666666667,
+								0.5684210526315789,
+								0.5,
+								0.9610526315789474,
+								0.033,
+								0.9473684210526315,
+								0.197,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 3000,
+						"height": 1900,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2623352,
+						"collisionPoly": {
+							"points": [
+								0.272,
+								0.42947368421052634,
+								0.5,
+								0.13,
+								0.8406666666666667,
+								0.25105263157894736,
+								0.788,
+								0.5,
+								0.7283333333333334,
+								0.5710526315789474,
+								0.5,
+								0.9342105263157895,
+								0.044,
+								0.93,
+								0.184,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 3000,
+						"height": 1900,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8689139,
+						"collisionPoly": {
+							"points": [
+								0.26466666666666666,
+								0.41789473684210526,
+								0.5,
+								0.11421052631578947,
+								0.8406666666666667,
+								0.25105263157894736,
+								0.777,
+								0.5,
+								0.7323333333333333,
+								0.5773684210526315,
+								0.5,
+								0.9073684210526316,
+								0.05733333333333333,
+								0.9089473684210526,
+								0.17066666666666666,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 3000,
+						"height": 1900,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8850203,
+						"collisionPoly": {
+							"points": [
+								0.272,
+								0.42947368421052634,
+								0.5,
+								0.13,
+								0.8406666666666667,
+								0.25105263157894736,
+								0.788,
+								0.5,
+								0.7283333333333334,
+								0.5710526315789474,
+								0.5,
+								0.9342105263157895,
+								0.044,
+								0.93,
+								0.184,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 673924347774330,
+				"name": "Ghost_Walking_Right",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 3000,
+						"height": 1900,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1631256,
+						"collisionPoly": {
+							"points": [
+								0.159,
+								0.25105263157894736,
+								0.5,
+								0.14526315789473684,
+								0.7206666666666667,
+								0.4405263157894737,
+								0.8026666666666666,
+								0.5,
+								0.9666666666666667,
+								0.9473684210526315,
+								0.5,
+								0.9610526315789474,
+								0.273,
+								0.5684210526315789,
+								0.198,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 3000,
+						"height": 1900,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8242427,
+						"collisionPoly": {
+							"points": [
+								0.159,
+								0.25105263157894736,
+								0.5,
+								0.13,
+								0.728,
+								0.42894736842105263,
+								0.8156666666666667,
+								0.5,
+								0.9556666666666667,
+								0.93,
+								0.5,
+								0.9342105263157895,
+								0.2713333333333333,
+								0.5710526315789474,
+								0.21166666666666667,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 3000,
+						"height": 1900,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2320644,
+						"collisionPoly": {
+							"points": [
+								0.159,
+								0.25105263157894736,
+								0.5,
+								0.11473684210526315,
+								0.735,
+								0.41789473684210526,
+								0.8293333333333334,
+								0.5,
+								0.9423333333333334,
+								0.9089473684210526,
+								0.5,
+								0.9073684210526316,
+								0.2673333333333333,
+								0.5773684210526315,
+								0.22266666666666668,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 3000,
+						"height": 1900,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7793949,
+						"collisionPoly": {
+							"points": [
+								0.159,
+								0.25105263157894736,
+								0.5,
+								0.13,
+								0.728,
+								0.42894736842105263,
+								0.8156666666666667,
+								0.5,
+								0.9556666666666667,
+								0.93,
+								0.5,
+								0.9342105263157895,
+								0.2713333333333333,
+								0.5710526315789474,
+								0.21166666666666667,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 814857421994569,
+				"name": "Ghost_Walking_Left",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

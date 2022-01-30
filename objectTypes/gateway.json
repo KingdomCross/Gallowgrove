@@ -1,0 +1,59 @@
+{
+	"name": "Gateway",
+	"plugin-id": "Sprite",
+	"sid": 824593126116069,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 658133255246402
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8479508,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.04,
+								0.32,
+								0.16,
+								0.72,
+								0.16,
+								1,
+								0.04,
+								1,
+								0.96,
+								0,
+								0.96
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 682080292352178,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

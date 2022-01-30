@@ -1,0 +1,61 @@
+{
+	"name": "BG_Environment",
+	"plugin-id": "Sprite",
+	"sid": 257741999948682,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 992868782601324
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4916753,
+						"collisionPoly": {
+							"points": [
+								0.10800018310546874,
+								0.34400001525878915,
+								0.3200000000000001,
+								0.07999999999999981,
+								0.5320001983642579,
+								0.017000026702880706,
+								0.7200001525878906,
+								0.06600002288818343,
+								0.8480001831054687,
+								0.3240001678466796,
+								0.8760000610351562,
+								1,
+								0.11600006103515624,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 767006608985724,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
