@@ -559,39 +559,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 281,
-						"y": 1301.5,
+						"x": 257,
+						"y": 1628,
 						"width": 418,
 						"height": 171,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text_Box",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 64,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 273,
-						"y": 1587,
-						"width": -19,
-						"height": 405,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2012,7 +1983,7 @@
 				{
 					"type": "Text",
 					"properties": {
-						"text": "A band of fiendish rouges has disturbed the Gallowgrove. Yorick's Tomb lays bare. Fell spirits rise from their deathly beds and wander the boneyard...",
+						"text": "A band of fiendish rogues have disturbed the Gallowgrove. Yorick’s Tomb lays bare. Fell spirits rise from their deathly beds, wandering the boneyard…",
 						"enable-bbcode": true,
 						"font": "Garamond",
 						"size": 15,
@@ -2035,8 +2006,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 80,
-						"y": 1220,
+						"x": 56,
+						"y": 1546,
 						"width": 402,
 						"height": 81,
 						"originX": 0,
@@ -2054,7 +2025,7 @@
 				{
 					"type": "Text",
 					"properties": {
-						"text": "...and a gravedigger's job is never DONE.",
+						"text": "...and a gravedigger's job is never done.",
 						"enable-bbcode": true,
 						"font": "Garamond",
 						"size": 15,
@@ -2077,8 +2048,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 78,
-						"y": 1294,
+						"x": 54,
+						"y": 1620,
 						"width": 301,
 						"height": 21,
 						"originX": 0,
@@ -2096,7 +2067,7 @@
 				{
 					"type": "Text",
 					"properties": {
-						"text": "Ring the bell atop Yorick's Tomb and put the crypts to rest. bury whatever gets in your way.",
+						"text": "Ring the bell atop Yorick’s Tomb and put the crypts to rest. Bury whatever gets in your way!",
 						"enable-bbcode": true,
 						"font": "Garamond",
 						"size": 15,
@@ -2119,8 +2090,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 77,
-						"y": 1322,
+						"x": 53,
+						"y": 1648,
 						"width": 400,
 						"height": 57,
 						"originX": 0,
@@ -2138,7 +2109,7 @@
 				{
 					"type": "Text",
 					"properties": {
-						"text": "<- and -> to MOVE",
+						"text": "ARROW KEYS to MOVE",
 						"enable-bbcode": true,
 						"font": "Garamond",
 						"size": 16,
@@ -2161,9 +2132,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 504,
-						"y": 1533,
-						"width": 185,
+						"x": 742,
+						"y": 1565,
+						"width": 235,
 						"height": 28,
 						"originX": 0,
 						"originY": 0,
@@ -2180,49 +2151,7 @@
 				{
 					"type": "Text",
 					"properties": {
-						"text": "SPACE BAR or UP Arrow Key to JUMP",
-						"enable-bbcode": true,
-						"font": "Garamond",
-						"size": 16,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 60,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 2329,
-						"y": 1510,
-						"width": 280,
-						"height": 59,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text",
-					"properties": {
-						"text": "Left Mouse to SLAY",
+						"text": "LEFT MOUSE to SLAY",
 						"enable-bbcode": true,
 						"font": "Garamond",
 						"size": 16,
@@ -2245,9 +2174,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1033,
-						"y": 1407,
-						"width": 186,
+						"x": 746,
+						"y": 1598,
+						"width": 210,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
@@ -2264,7 +2193,7 @@
 				{
 					"type": "Text",
 					"properties": {
-						"text": "Right Mouse for PHANTOM-SIGHT",
+						"text": "RIGHT MOUSE for DARK SIGHT",
 						"enable-bbcode": true,
 						"font": "Garamond",
 						"size": 16,
@@ -2287,8 +2216,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1032,
-						"y": 1437,
+						"x": 718,
+						"y": 1634,
 						"width": 326,
 						"height": 26,
 						"originX": 0,
