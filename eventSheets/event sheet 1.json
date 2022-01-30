@@ -763,6 +763,21 @@
 								}
 							],
 							"sid": 163268337411292
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Player",
+									"sid": 108879496426355,
+									"parameters": {
+										"object": "Bell"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 336087805360089
 						}
 					],
 					"sid": 460042893867354

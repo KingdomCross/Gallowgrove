@@ -547,71 +547,6 @@
 					}
 				},
 				{
-					"type": "BG_Mausoleum",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 46,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 7855,
-						"y": 951,
-						"width": 2522,
-						"height": 1924,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							0.8
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Gateway",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 57,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 9675,
-						"y": 1505,
-						"width": 570,
-						"height": 580,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Text_Box",
 					"properties": {
 						"initially-visible": true,
@@ -668,6 +603,42 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Tomb_and_House_Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 97,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 8526,
+						"y": 1424,
+						"width": 1431,
+						"height": 678,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 409318347715000,
@@ -703,35 +674,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Tomb_and_House_Sprite",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 135,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 8439,
-						"y": 1516,
-						"width": 1431,
-						"height": 518,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "DeadBlocks",
 					"properties": {
 						"initially-visible": true,
@@ -761,7 +703,7 @@
 							1,
 							1,
 							1,
-							0.8
+							1
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -787,9 +729,9 @@
 						}
 					},
 					"world": {
-						"x": 1278,
+						"x": 1218.5,
 						"y": 1863.5,
-						"width": 2934,
+						"width": 2815,
 						"height": 172,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -797,7 +739,7 @@
 							1,
 							1,
 							1,
-							0.8
+							1
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -819,7 +761,7 @@
 					"behaviors": {
 						"Sine": {
 							"properties": {
-								"movement": "horizontal",
+								"movement": "vertical",
 								"wave": "sine",
 								"period": 4,
 								"period-random": 0,
@@ -833,8 +775,8 @@
 						}
 					},
 					"world": {
-						"x": 3146,
-						"y": 1275,
+						"x": 3237,
+						"y": 1279,
 						"width": 207.22051653753374,
 						"height": 131.23966047377132,
 						"originX": 0.5,
@@ -879,8 +821,8 @@
 						}
 					},
 					"world": {
-						"x": 4703,
-						"y": 1274,
+						"x": 4800,
+						"y": 1329,
 						"width": 207.22051653753374,
 						"height": 131.23966047377132,
 						"originX": 0.5,
@@ -984,8 +926,8 @@
 						}
 					},
 					"world": {
-						"x": 2879,
-						"y": 1646,
+						"x": 2850,
+						"y": 1757,
 						"width": 450,
 						"height": 180,
 						"originX": 0.5,
@@ -1147,8 +1089,8 @@
 						}
 					},
 					"world": {
-						"x": 3279,
-						"y": 1698,
+						"x": 3211,
+						"y": 1720,
 						"width": 203.76578524980232,
 						"height": 203.76578524980232,
 						"originX": 0.5,
@@ -1291,7 +1233,7 @@
 							1,
 							1,
 							1,
-							0.8
+							1
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -1333,8 +1275,8 @@
 						}
 					},
 					"world": {
-						"x": 4402,
-						"y": 1543,
+						"x": 4362,
+						"y": 1741,
 						"width": 450,
 						"height": 180,
 						"originX": 0.5,
@@ -1385,8 +1327,8 @@
 						}
 					},
 					"world": {
-						"x": 4798,
-						"y": 1692,
+						"x": 4741,
+						"y": 1695,
 						"width": 203.76578524980232,
 						"height": 203.76578524980232,
 						"originX": 0.5,
@@ -1529,7 +1471,7 @@
 							1,
 							1,
 							1,
-							0.8
+							1
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -1555,10 +1497,10 @@
 						}
 					},
 					"world": {
-						"x": 7960.975531895175,
-						"y": 1588.3446609391206,
-						"width": 259.04893620965004,
-						"height": 358.31067812175894,
+						"x": 8193,
+						"y": 1548,
+						"width": 281.2340940266629,
+						"height": 388.99669080323457,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1982,10 +1924,46 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 7856,
-						"y": 1844,
-						"width": 516.5366810374098,
-						"height": 188.68166304135417,
+						"x": 8073,
+						"y": 1824,
+						"width": 585.9617638188765,
+						"height": 214.04141106482922,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Gateway",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 57,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 8964,
+						"y": 1543,
+						"width": 281.234094,
+						"height": 388.996691,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2357,7 +2335,7 @@
 	"sid": 382071508578901,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 10000,
+	"width": 9500,
 	"height": 1920,
 	"unboundedScrolling": false,
 	"vpX": 0.5,

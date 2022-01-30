@@ -34,35 +34,6 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "Living_Broken_Door",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 127,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 6180,
-						"y": 1580,
-						"width": 900,
-						"height": 300,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
 			"sid": 887799876477037,
@@ -163,7 +134,7 @@
 							0,
 							0,
 							0,
-							0.8
+							1
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -180,7 +151,14 @@
 					},
 					"uid": 111,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
 						"x": 3613,
 						"y": 3379,
@@ -1163,10 +1141,17 @@
 					},
 					"uid": 126,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
-						"x": 6678,
-						"y": 1307,
+						"x": 6611,
+						"y": 1302,
 						"width": 1431,
 						"height": 530,
 						"originX": 0.5,
@@ -1201,10 +1186,10 @@
 						}
 					},
 					"world": {
-						"x": 6163,
-						"y": 1324,
-						"width": 321,
-						"height": 415,
+						"x": 6275,
+						"y": 1393,
+						"width": 256.6002234971653,
+						"height": 331.7417219667402,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1253,8 +1238,8 @@
 						}
 					},
 					"world": {
-						"x": 7423,
-						"y": 1324,
+						"x": 7441,
+						"y": 1553,
 						"width": 450,
 						"height": 180,
 						"originX": 0.5,
@@ -1306,7 +1291,7 @@
 					},
 					"world": {
 						"x": 7151,
-						"y": 940,
+						"y": 954,
 						"width": 203.76578524980232,
 						"height": 203.76578524980232,
 						"originX": 0.5,
@@ -1357,8 +1342,8 @@
 						}
 					},
 					"world": {
-						"x": 7926,
-						"y": 1043,
+						"x": 7962,
+						"y": 1191,
 						"width": 450,
 						"height": 180,
 						"originX": 0.5,
@@ -1403,8 +1388,8 @@
 						}
 					},
 					"world": {
-						"x": 6630,
-						"y": 788,
+						"x": 6666,
+						"y": 950,
 						"width": 207.22051653753374,
 						"height": 131.23966047377132,
 						"originX": 0.5,
@@ -1432,8 +1417,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 6236,
-						"y": 817,
+						"x": 8605,
+						"y": 250,
 						"width": 358,
 						"height": 360,
 						"originX": 0.5,
@@ -1622,6 +1607,35 @@
 						"y": 3574,
 						"width": 450,
 						"height": 180,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Living_Broken_Door",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 127,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 6011,
+						"y": 1651,
+						"width": 555.3050657520167,
+						"height": 185.10168858400556,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

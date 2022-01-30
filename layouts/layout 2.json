@@ -63,6 +63,42 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Tomb_and_House_Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 137,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 8437,
+						"y": 1482,
+						"width": 1534,
+						"height": 707,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 362827865858287,
@@ -117,8 +153,8 @@
 						}
 					},
 					"world": {
-						"x": 522,
-						"y": 2006,
+						"x": 488,
+						"y": 1964,
 						"width": 1031,
 						"height": 316,
 						"originX": 0.5,
@@ -127,7 +163,7 @@
 							1,
 							1,
 							1,
-							0.8
+							1
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -215,7 +251,7 @@
 							1,
 							1,
 							1,
-							0.8
+							1
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -257,8 +293,8 @@
 						}
 					},
 					"world": {
-						"x": 1683,
-						"y": 1770,
+						"x": 1712,
+						"y": 1779,
 						"width": 203.76578524980232,
 						"height": 203.76578524980232,
 						"originX": 0.5,
@@ -545,7 +581,7 @@
 							1,
 							1,
 							1,
-							0.8
+							1
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -581,7 +617,7 @@
 							1,
 							1,
 							1,
-							0.8
+							1
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -711,8 +747,8 @@
 						}
 					},
 					"world": {
-						"x": 6463,
-						"y": 1623,
+						"x": 6728,
+						"y": 1594,
 						"width": 321,
 						"height": 415,
 						"originX": 0.5,
@@ -757,8 +793,8 @@
 						}
 					},
 					"world": {
-						"x": 7082,
-						"y": 1398,
+						"x": 7106,
+						"y": 1621,
 						"width": 207.22051653753374,
 						"height": 131.23966047377132,
 						"originX": 0.5,
@@ -803,8 +839,8 @@
 						}
 					},
 					"world": {
-						"x": 7734,
-						"y": 1028,
+						"x": 7919,
+						"y": 967,
 						"width": 200,
 						"height": 240,
 						"originX": 0.5,
@@ -941,8 +977,8 @@
 						}
 					},
 					"world": {
-						"x": 9820,
-						"y": 1665,
+						"x": 10038,
+						"y": 1693,
 						"width": 200,
 						"height": 240,
 						"originX": 0.5,
@@ -987,8 +1023,8 @@
 						}
 					},
 					"world": {
-						"x": 8976,
-						"y": 1235,
+						"x": 9669,
+						"y": 1448,
 						"width": 207.22051653753374,
 						"height": 131.23966047377132,
 						"originX": 0.5,
@@ -1125,8 +1161,8 @@
 						}
 					},
 					"world": {
-						"x": 8444,
-						"y": 1295,
+						"x": 9459,
+						"y": 664,
 						"width": 207.22051653753374,
 						"height": 131.23966047377132,
 						"originX": 0.5,
@@ -1157,7 +1193,7 @@
 					"behaviors": {
 						"Sine": {
 							"properties": {
-								"movement": "horizontal",
+								"movement": "vertical",
 								"wave": "sine",
 								"period": 4,
 								"period-random": 0,
@@ -1171,8 +1207,8 @@
 						}
 					},
 					"world": {
-						"x": 10116,
-						"y": 1221,
+						"x": 10400,
+						"y": 1453,
 						"width": 207.22051653753374,
 						"height": 131.23966047377132,
 						"originX": 0.5,
@@ -1198,10 +1234,17 @@
 					},
 					"uid": 136,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
-						"x": 2949,
-						"y": 1522,
+						"x": 2969,
+						"y": 1566,
 						"width": 1431,
 						"height": 678,
 						"originX": 0.5,
@@ -1236,39 +1279,10 @@
 						}
 					},
 					"world": {
-						"x": 2453.5,
-						"y": 1587.5,
-						"width": 380,
-						"height": 548,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tomb_and_House_Sprite",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 137,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 7917,
-						"y": 1474,
-						"width": 1534,
-						"height": 707,
+						"x": 2640,
+						"y": 1680,
+						"width": 272.6534925639121,
+						"height": 393.1950366447995,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1301,10 +1315,10 @@
 						}
 					},
 					"world": {
-						"x": 7385,
-						"y": 1531,
-						"width": 374,
-						"height": 598,
+						"x": 8064,
+						"y": 1598,
+						"width": 247.19596710675955,
+						"height": 395.2491666573321,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1330,10 +1344,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2272,
-						"y": 2020,
-						"width": 939,
-						"height": 343,
+						"x": 2294.517375648333,
+						"y": 2028.225196855568,
+						"width": 893.9652487033335,
+						"height": 326.5496062888641,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1412,8 +1426,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 7250,
-						"y": 1892,
+						"x": 7772,
+						"y": 1897,
 						"width": 823,
 						"height": 180,
 						"originX": 0.5,
@@ -1441,7 +1455,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 6357,
+						"x": 6509,
 						"y": 1887,
 						"width": 516.5366810374098,
 						"height": 188.68166304135417,
@@ -1493,8 +1507,8 @@
 						}
 					},
 					"world": {
-						"x": 6978,
-						"y": 1755,
+						"x": 7514,
+						"y": 1589,
 						"width": 450,
 						"height": 180,
 						"originX": 0.5,
