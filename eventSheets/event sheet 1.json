@@ -24,11 +24,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 575399224742277,
+					"sid": 586722461679404,
 					"parameters": {
 						"audio-file": "GlobalGameJam2022",
 						"loop": "looping",
-						"volume": "0",
+						"volume": "-10",
 						"tag-optional": "\"\""
 					}
 				}
