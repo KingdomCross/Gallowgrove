@@ -55,6 +55,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "UserMedia",
+			"name": "User Media",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -101,7 +109,8 @@
 			"Bell",
 			"BackgroundGravesSilhouetteSprite",
 			"BackgroundTreeSprite",
-			"BellText"
+			"BellText",
+			"UserMedia"
 		],
 		"subfolders": [
 			{
@@ -166,6 +175,10 @@
 			"subfolders": []
 		},
 		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
 			"items": [
 				{
 					"name": "GlobalGameJam2022.webm",
@@ -173,10 +186,6 @@
 					"sid": 165988252537037
 				}
 			],
-			"subfolders": []
-		},
-		"music": {
-			"items": [],
 			"subfolders": []
 		},
 		"video": {

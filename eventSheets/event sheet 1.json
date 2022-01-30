@@ -15,6 +15,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 534796300094436
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 575399224742277,
+					"parameters": {
+						"audio-file": "GlobalGameJam2022",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 347574570643587
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-click",
 					"objectClass": "Mouse",
 					"sid": 628085827407307,

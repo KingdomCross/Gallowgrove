@@ -1755,6 +1755,27 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "UserMedia",
+					"properties": {},
+					"uid": 39,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 4836,
+						"y": 590,
+						"width": 320,
+						"height": 240,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
 			"sid": 957191401564661,
