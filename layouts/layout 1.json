@@ -377,6 +377,35 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Text_Box",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 9300,
+						"y": 1307,
+						"width": 340,
+						"height": 141,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 409318347715000,
@@ -1371,7 +1400,7 @@
 					"behaviors": {
 						"Sine": {
 							"properties": {
-								"movement": "horizontal",
+								"movement": "vertical",
 								"wave": "sine",
 								"period": 4,
 								"period-random": 0,
@@ -1717,17 +1746,17 @@
 				{
 					"type": "BellText",
 					"properties": {
-						"text": "Yorick’s Bell tolls overhead. BwwooONG! BwwooONG! BwwooONG! All grows still within the shadow-clad crypts and skull-scattered catacombs. The last of the damned slink back into their lowly coffers, echoing sweet sighs of slumber. Naught else remains but the humble gravedigger, his shovel, and the last lingering breath… …of the Gallowgrove.",
+						"text": "Yorick’s Bell tolls overhead. BwwooONG! BwwooONG! BwwooONG! All grows still within the shadow-clad crypts and skull-scattered catacombs. The last of the damned slink back into their lowly coffers, echoing sweet sighs of slumber. Naught else remains but the humble gravedigger, his shovel, and the last lingering breath... of the Gallowgrove.",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Garamond",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
-						"italic": false,
+						"italic": true,
 						"color": [
-							0,
-							0,
-							0,
+							1,
+							1,
+							1,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -1740,10 +1769,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 9120,
-						"y": 1214,
+						"x": 9141,
+						"y": 1245,
 						"width": 323,
-						"height": 335,
+						"height": 135,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1881,7 +1910,7 @@
 						"x": 54,
 						"y": 1620,
 						"width": 301,
-						"height": 21,
+						"height": 27,
 						"originX": 0,
 						"originY": 0,
 						"color": [
